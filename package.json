@@ -1,4 +1,12 @@
 {
+  "name": "JoshWebsite",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/joshkergan/joshkergan.github.io.git"
+  },
+  "email": "joshkergan@gmail.com",
+  "url": "https://joshkergan.github.io",
+  "license": "MIT",
   "engines": {
     "node": ">= 0.10.0"
   },
