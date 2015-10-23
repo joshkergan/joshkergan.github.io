@@ -8,6 +8,8 @@ node and npm - [Node.js](https://nodejs.org/)
 
 Grunt - [Grunt](http://gruntjs.com/)
 
+Jekyll - [Jekyll](https://jekyllrb.com/)
+
 ruby gems - [How to install Ruby and Ruby Gems](http://code.tutsplus.com/articles/ruby-for-newbies-working-with-gems--net-18977)
 
 Blunder
