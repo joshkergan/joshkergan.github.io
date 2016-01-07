@@ -20,7 +20,7 @@ To install the dependencies run from the root directory (same directory as this 
 npm install
 npm install -g grunt-cli # installs grunt skip this step if you already have grunt installed
 gem install blunder # install blunder gem
-blunder install
+bundle install
 ```
 
 ## Developement

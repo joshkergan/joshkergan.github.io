@@ -1,0 +1,15 @@
+# Site settings
+title: Josh Kergan
+email: joshkergan@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Josh Kergan, Software Developer and Software Engineering 
+  student at the University of Waterloo
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://joshkergan.github.io" # the base hostname & protocol for your site
+github_username:  joshkergan
+
+# Build settings
+exclude: ["Gemfile", "Gemfile.lock", "Gruntfile.js", "package.json", "README.md", "node_modules"]
+markdown: 
+highlighter: pygment
+sass_dir: _sass
