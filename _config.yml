@@ -11,5 +11,5 @@ github_username:  joshkergan
 # Build settings
 exclude: ["Gemfile", "Gemfile.lock", "Gruntfile.js", "package.json", "README.md", "node_modules"]
 markdown: 
-highlighter: pygment
+highlighter: rouge
 sass_dir: _sass
