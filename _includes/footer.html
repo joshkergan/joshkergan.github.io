@@ -5,39 +5,15 @@
     <h2 class="footer-heading">{{ site.title }}</h2>
 
     <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-4">
+
+      <div class="footer-col-2">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3 col-lg-offset-5 col-md-offset-3">
-        <p class="text-right">
-            <a rel="license" 
-              href="http://creativecommons.org/licenses/by-sa/4.0/">
-              <img alt="Creative Commons License" 
-                style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
-            </a>
-            <br /><span xmlns:dct="http://purl.org/dc/terms/" 
-              href="http://purl.org/dc/dcmitype/StillImage" 
-              property="dct:title" rel="dct:type">
-                All images
-            </span>
-            by 
-            <span xmlns:cc="http://creativecommons.org/ns#" 
-              property="cc:attributionName">
-                Taylor Kergan
-            </span> 
-            are licensed under a 
-            <a rel="license" 
-              href="http://creativecommons.org/licenses/by-sa/4.0/">
-                Creative Commons Attribution-ShareAlike 4.0 International License
-            </a>.
-        </p>
-      </div>
-
-      <div class="footer-col  footer-col-10">
+      <div class="footer-col-1">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -70,7 +46,30 @@
         </ul>
       </div>
 
-      <div class="footer-col  footer-col-10">
+      <div class="footer-col-3">
+          <a rel="license" 
+            href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img alt="Creative Commons License" 
+              style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+          </a>
+          <br /><span xmlns:dct="http://purl.org/dc/terms/" 
+            href="http://purl.org/dc/dcmitype/StillImage" 
+            property="dct:title" rel="dct:type">
+              All images
+          </span>
+          by 
+          <span xmlns:cc="http://creativecommons.org/ns#" 
+            property="cc:attributionName">
+              Taylor Kergan
+          </span> 
+          are licensed under a 
+          <a rel="license" 
+            href="http://creativecommons.org/licenses/by-sa/4.0/">
+              Creative Commons Attribution-ShareAlike 4.0 International License
+          </a>.
+      </div>
+
+      <div class="footer-col-3">
         <p class="text">{{ site.description }}</p>
       </div>
     </div>
@@ -78,8 +77,6 @@
   </div>
 
   <!-- Tracking code for Google Analytics -->
-  <script type="text/javascript" src="{{ site.baseurl }}/js/tracking.js"></script>
-  <!-- script to redirect to https: if connection is made on http: -->
-  <script type="text/javascript" src="{{ site.baseurl }}/js/https.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/js/tracking.js"></script>
   
 </footer>
